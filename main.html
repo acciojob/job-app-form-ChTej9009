@@ -3,11 +3,50 @@
 <html>
 
 <head>
+	<title>Job App form</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!-- Name field:id-Name -->
+	<label for="name">Name</label>
+	<input type="text" id="name" name="Name"><br><br>
+<!-- Email field with id-email -->
+	<label for="email">Email</label>
+  <input type="email" id="email" name="email">
+  <br><br>
+<!-- Gender(radio) button with name attribute as gender -->
+<label for="gender">Gender </label>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="Other">Other
+<br><br>
+<!-- Laptop brands (options:Apple,Asus,HP) id:laptop -->
+<label for="laptop">Laptop Brands</label>
+<select id="laptop" name="laptop">
+  <option value="Apple">Apple</option>
+  <option value="Asus">Asus</option>
+  <option value="HP">HP</option>
+</select>
+<br><br>
+<!-- Age field id-age  -->
+<label for="age">Age</label>
+<input type="number" id="age" >
+<br><br>
+<!-- DOB field id-dob -->
+<label for="dob">DOB</label>
+<input type="date" id="dob" name="dob">
+<br><br>
+<!-- Password field id-password -->
+<label for="password">Password</label>
+<input type="password" id="password" name="password"><br><br>
+<!-- website url for their portfolio-id:portfolio -->
+<label for="portfolio">Portfolio</label>
+<input type="url" id="portfolio" name="portfolio">
+<br><br>
+<!-- submit button -->
+<input type="submit" value="Submit">
     <script type="text/javascript" src="./script.js">
 </script>
 
